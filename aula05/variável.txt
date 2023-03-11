@@ -1,0 +1,72 @@
+Objetivo: Saber como guardar as informações cedidas pelo cliente.
+
+COMENTÁRIOS: 
+    Comentários = Em Js existem dois tipos de comentários que são:
+
+    Comentário de uma linha: //
+    Comentário de várias linhas: /**/
+
+    OBSERVAÇÃO: O exemplo de comentário em Js está no arquivo ex001.js da aula anterior.
+
+    O ato de comentar um código ajuda a quem ver o código futuramente enteder qual o objetivo de script.
+
+TYPEOF:
+    Função que informa qual o tipo de dado do valor recebido na variável.
+
+    ex:
+
+    Node.js:
+
+    var n = 5
+    typeof n
+    'Number'
+
+
+
+
+VARIÁVEL:
+    Variável serve para guardar dados;
+
+    Números Inteiros - Number (Infinity e NaN)
+    Pontos Flutuantes - Number
+    Cadeia de caracteres - strings
+    Valor Booleano (True or False) - Boolean
+    null
+    underfined
+    object (Array)
+    function
+
+
+
+
+    Observação "Um único sinal de igual, é lido como 'recebe'."
+
+                = >> recebe
+
+    = null (a variável estará vazia);
+
+    variável = local de armazenamento.
+
+    para identificar uma variável é necessário identificar com a abreviação 'var' ou 'let'. exemplo:
+
+    var nome = 'Emanoel'
+    let nome = 'Yolanda'
+
+FORMAS DE DECLARAR STRINGS:
+    Em JS, para informar uma string pode-se usar três tipos de aspas, que são:
+    '' - Aspas Simples
+    "" - Aspas Duplas
+    `` - Craze
+
+NOME DE VÁRIÁVEL SÃO IDENTIFICADORES [REGRAS]:
+
+    - Podem começar com: letra, $ ou _
+    - Não podem começar com número;
+    - É possível usar letras e números;
+    - É possível usar acentos e símbulos;
+    - Não podem conter espaços;
+    - Não podem ser palavras reservadas;
+
+DICAS PARA ESCOLHER NOME DE IDENTIFICADOR:
+    - Maiúsculas e minúsculas fazem diferença; (Sensitive Case)
+    - Utilizar nomes coerentes para os valores que a variável irá receber;
